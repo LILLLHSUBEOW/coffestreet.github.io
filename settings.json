@@ -1,0 +1,30 @@
+{
+    "workbench.colorTheme": "Dracula At Night",
+    "python.defaultInterpreterPath": "C:\\Users\\dashi\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe",
+    "launch": {
+        "configurations": [
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
+        }
+        ]
+    },
+    "workbench.editor.enablePreview": false,
+    "[ruby]": {
+        "editor.defaultFormatter": "Shopify.ruby-lsp",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "files.trimTrailingWhitespace": true,
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "editor.rulers": [
+            120
+        ],
+        "editor.semanticHighlighting.enabled": true
+    }
+}
